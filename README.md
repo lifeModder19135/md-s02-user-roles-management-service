@@ -1,4 +1,4 @@
-# md-s02-user-roles-manager
+# md-s02-user-roles-management-service
 High-level microservice charged with  persisting and authorizing roles for registered user. If launched with a non-registered user,
 it should return a guest role. For members, it returns all associated roles. In any other instance, it will return exception(s).
 
